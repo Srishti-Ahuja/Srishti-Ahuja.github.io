@@ -1,0 +1,327 @@
+body{
+    background-color: black;
+    margin: 0 auto;
+    font-family: "Lucida Grande";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:active{
+    color: white;
+}
+header{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.menu-bar table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.menu-bar td{
+    width: 20%;
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.menu-bar td:hover{
+    background-color: darkseagreen;
+    z-index: 4;
+}
+
+.menu-bar{
+    background-color: darkcyan;
+    color: white;
+    width: 100%;
+    position: absolute;
+    margin: 0px;
+}
+
+.heading{
+    padding: 0px 30px;
+    background-color: black;
+    text-align: left;
+}
+
+.heading img{
+    height: 100px;
+}
+
+.heading button{
+    float:right;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button{
+    box-shadow: 0 7px darkcyan;
+    margin: 30px;
+    padding: 10px 50px;
+}
+
+button:active{
+    box-shadow: none;
+}
+
+main{
+   background-image: url("background.gif");
+   position: relative;
+   width:100%;
+}
+
+.motivational{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 155px;
+}
+
+.motivational img{
+    width: 100%;
+    margin: 0px;
+    height:500px;
+}
+
+.about-us{
+    text-align: center;
+    border: 5px solid black;
+    position: relative;
+    color: white;
+    margin: 0px 100px;
+    padding: 0px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.about-us h3{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid darkcyan;
+    font-family: "Comic Sans MS";
+    font-weight: normal;
+}
+
+.about-us p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-us h4{
+    color: khaki;
+}
+
+.about-us img{
+    height:40px;
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: "ink free";
+}
+
+footer{
+    background-color: rgb(249, 249,249);
+    width:100%;
+    height: 100px;
+}
+
+footer img{
+    height: 100px;
+    float: left;
+}
+
+.copyrights{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.stages{
+    color: white;
+}
+
+.stage{
+    font-size: large;
+    padding: 10px 20px;
+    border-bottom: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 25px;
+}
+
+.stage:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.stage h2{
+    border-bottom: 1px solid darkcyan;
+}
+
+.even{
+    text-align: right;
+}
+
+.stages-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    background-color: darkgray;
+    color: black;
+}
+
+.stages-heading:hover{
+    background-color: gray;
+}
+
+.stages-heading span{
+    color: darkcyan;
+}
+
+.stagespic{
+    text-align: center;
+    margin-bottom:20px;
+}
+.stagespic img{
+    width:1150px;
+}
+
+.main-heading{
+    margin-top: 150px;
+    text-align: center;
+    height: 150px;
+    background-color: black;
+}
+
+.main-heading img{
+    height: 150px;
+}
+
+.container{
+    background-image: url("container-background.jpg");
+    background-position: top;
+    background-attachment: fixed;
+    margin: 0px 100px;
+    margin-top: 140px;
+}
+
+.classification{
+    text-align: center;
+    color: white;
+    margin: 0px 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid darkcyan;
+}
+
+.classification:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.end{
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    margin: 20px;
+    border-left: 1px solid darkcyan;
+    border-right: 1px solid darkcyan;
+}
+
+.language{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 20px;
+}
+
+.language b{
+    color: cadetblue;
+}
+
+.intro{
+  padding-top: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;  
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.intro p{
+    font-size: 20px;
+}
+
+.intro h3{
+    font-weight: normal;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkcyan;
+
+}
+
+.intro img{
+   width: 1150px;
+}
+
+.icon img{
+    width:80px;
+}
+
+.tools{
+    width:100%;
+    text-align: center;
+}
+.tool{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 0px 80px;
+    padding: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tool li{
+    font-size: 20px;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+form table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checklist{
+    text-align: center;
+}
+
+marquee{
+    background-color:rgba(255, 255, 255, 0.6);
+}

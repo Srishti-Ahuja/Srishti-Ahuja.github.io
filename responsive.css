@@ -1,0 +1,54 @@
+//responsive
+
+
+@media all and (max-width:1000px){
+
+    .stage{
+        font-size: medium;
+    }
+
+    .tool{
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .intro img{
+        width: 670px;
+     }
+
+    .stagespic img{
+        width: 750px;
+    }
+
+}
+
+
+@media all and (max-width:670px){
+    
+    .stage{
+        font-size: small;
+    }
+
+    .tool{
+        width:100%;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .stages-heading{
+        font-size: medium;
+    }
+
+    .intro table{
+        width:100%;
+    }
+
+    .intro img{
+        width: 450px;
+    }
+
+    .stagespic img{
+        width: 450px;
+    }
+
+}
